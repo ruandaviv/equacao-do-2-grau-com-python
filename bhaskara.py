@@ -15,4 +15,4 @@ if delta <= 0:
 else:
     x1 = -b + math.sqrt(delta) / 2 * a
     x2 = -b - math.sqrt(delta) / 2 * a
-    print(f'O valor de X1 e X2 é, respectivamente, {x1} e {x2}')
+    print(f'O valor de X1 e X2 é, respectivamente, {x1:.2f} e {x2:.2f}')
